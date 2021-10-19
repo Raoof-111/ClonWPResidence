@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WPResidence </title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body id="body">
+    <!-- forphone -->
+<section id="phone-header">
+    <div class="container container-sm container-md">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-2 col-sm-2 col-md-2 text-start">
+                <i id="bars" onclick="openNav()" class="fas fa-bars"></i>
+                <i style="display: none;" onclick="closeNav()" id="arrow" class="fas fa-arrow-left text-end"> </i>
+
+            </div>
+            <div class="col-8 col-sm-8 col-md-8 text-center">
+                <img class="img-fluid" src="Photo/transparentopt.png" alt="">
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 text-end">
+                <i onclick="openNavuser()" id="user" class="fas fa-user-circle"></i>
+
+            </div>
+        </div>
+    </div>
+    <div id="Sidenav" class="sidenavuser">
+       <div class="row justify-content-between">
+           <div class="col-6 text-start">
+               <h5>Login</h5>
+        </div>
+           <div class="col-6 text-end mb-4">
+               <i onclick="closeNavuser()" class="fas fa-times"></i>
+           </div>
+           <input placeholder="Username" type="text">
+           <input placeholder="Password" type="text">
+           <a href="">Login</a>
+           <span>Need an account?</span>
+           <span>Register here! </span>
+           <span>Forgot Password</span>
+           <div class="box">
+               <div class="row justify-content-between align-items-center">
+                   <div class="col-10 left-box">
+                    <span>Login with Facebook</span>
+                   </div>
+                   <div class="col-2 right-box">
+                    <i class="fab fa-facebook-f"></i>
+                   </div>
+               </div>
+               <div class="row justify-content-between align-items-center">
+                   <div class="col-10 left-boxs">
+                    <span>Login with Google</span>
+                   </div>
+                   <div class="col-2 right-boxs">
+                    <i class="fab fa-google"></i>
+                   </div>
+               </div>
+               <div class="row justify-content-between align-items-center">
+                   <div class="col-10 left-boxt">
+                    <span>Login with Twitter</span>
+                   </div>
+                   <div class="col-2 right-boxt">
+                    <i class="fab fa-twitter"></i>
+                   </div>
+               </div>
+           </div>
+       </div>
+      </div>
+
+
+
+
+
+
+
+
+    <div id="mySidenav" class="sidenav">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-6 text-start">
+                <a href="">Home</a></div>
+            <div class="col-6 text-end">
+                <i class="fas fa-chevron-down cvn"></i></div>
+                <div class="panel">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-12 text-start">
+                            <a href="">Home V2 with Contact Form</a></div>
+                        <div class="col-12 text-end">
+                          </div>
+                    </div> 
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-12 text-start">
+                            <a href="">Home V3 & Video Header</a></div>
+                        <div class="col-12 text-end">
+                           </div>
+                    </div> 
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-12 text-start">
+                            <a href="">Home V4 & Sticky Search</a></div>
+                        <div class="col-12 text-end">
+                            </div>
+                    </div> 
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-12 text-start">
+                            <a href="">Home V5 & Header Type </a></div>
+                        <div class="col-12 text-end">
+                            </div>
+                    </div> 
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-12 text-start">
+                            <a href="">Home with Map in Header</a></div>
+                        <div class="col-12 text-end">
+                           </div>
+                    </div> 
+                    <div style="border: none;" class="row justify-content-between align-items-center">
+                        <div class="col-6 text-start">
+                            <a href="">Splas page</a></div>
+                        <div class="col-6 text-end">
+                            <i class="fas fa-chevron-down"></i></div>
+                    </div> 
+                    
+                </div>
+        </div> 
+        <div class="row justify-content-between align-items-center">
+            <div class="col-6 text-start">
+                <a href="">Demos</a></div>
+            <div class="col-6 text-end">
+                <i class="fas fa-chevron-down"></i></div>
+                
+        </div> 
+        <div class="row justify-content-between align-items-center">
+            <div class="col-6 text-start">
+                <a href="">Lists</a></div>
+            <div class="col-6 text-end">
+                <i class="fas fa-chevron-down"></i></div>
+        </div> 
+        <div class="row justify-content-between align-items-center">
+            <div class="col-6 text-start">
+                <a href="">Property</a></div>
+            <div class="col-6 text-end">
+                <i class="fas fa-chevron-down"></i></div>
+        </div> 
+        <div class="row justify-content-between align-items-center">
+            <div class="col-6 text-start">
+                <a href="">Pages</a></div>
+            <div class="col-6 text-end">
+                <i class="fas fa-chevron-down"></i></div>
+        </div> 
+        <div class="row justify-content-between align-items-center">
+            <div class="col-6 text-start">
+                <a href="">Elements</a></div>
+            <div class="col-6 text-end">
+                <i class="fas fa-chevron-down"></i></div>
+        </div> 
+        <div class="row justify-content-between align-items-center">
+            <div class="col-6 text-start">
+                <a href="">Search</a></div>
+            <div class="col-6 text-end">
+                <i class="fas fa-chevron-down"></i></div>
+        </div>
+      </div>
+    
+          
+     
+</section>
+
+
+<!--forpc-->
+<section>
+    <section id="head">
+        <div class="container">
+           <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 text-start left-box">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-vimeo-v"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-foursquare" ></i>
+            </div>
+            <div class="col-lg-6 text-end right-box">
+                <span><i class="far fa-envelope"></i>contact@mail.com</span>
+                <span> <i class="fab fa-whatsapp"></i>+1 408 111 1234</span>
+            </div>
+           </div>
+        </div>
+    </section>
+    <section id="header" >
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-3 img-box">
+                    <img class="img-fluid" src="Photo/transparentopt.png" alt="">
+                </div>
+                <div class="col-lg-9 box">
+                    <div id="dp-first" class="dropdown">
+                        <a href="">Home</a>
+                        <div class="dpcontent">
+                           
+                            <a href="">Home V2 with Contact Form</a>
+                            <a href="">Home V3 & Video Header</a>
+                            <a href="">Home V4 & Sticky Search</a>
+                            <a href="">Home V5 & Header Type 5</a>
+                            <a href="">Home with Map in Header</a>
+                            <a href="">Splash Page</a>
+                            <a href="">Home & Theme Slider V1</a>
+                            <a href="">Home & Theme Slider V2</a>
+                            <a href="">Home & Theme Slider V3</a>
+                            <a href="">Home & Revolution Slider</a>
+                           
+                        </div>
+                    </div>
+                    <div id="demos" class="dropdown">
+                        <a href="">Demos</a>
+                    </div>
+                    <div class="dropdown">
+                        <a href="">Lists</a>
+                        <div class="dpcontentt"></div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="">Property</a>
+                        <div class="dpcontentt"></div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="">Pages</a>
+                        <div class="dpcontentt"></div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="">Elements</a>
+                        <div class="dpcontentt"></div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="">Search</a>
+                        <div class="dpcontentt"></div>
+                    </div>
+                    <div class="right-box">
+                        <i class="fas fa-phone"></i>
+                        <span>050-893-2207</span>
+                        <i class="fas fa-user-circle" ></i>
+                        <a href=""> Add Listing</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="dp">
+        <div  class="dp-second ">
+            <div class="row all justify-content-between container ">
+                <div class="col-lg-3 box">
+                    <h3>Demos</h3>
+                    <a href="">New York Demo</a>
+                    <a href="">Paris Demo</a>
+                    <a href="">Los Angles Demo</a>
+                    <a href="">Chicago Demo</a>
+                    <a href="">Rio Demo</a>
+        
+                </div>
+                <div class="col-lg-3 box">
+                    <h3>Demos</h3>
+                    <a href="">Woo Deom Paid Submission</a>
+                    <a href="">Woo Demo & Membership</a>
+                    <a href="">Single agent Demo</a>
+                    <a href="">London Demo</a>
+                </div>
+                <div class="col-lg-3 box">
+                    <h3>Demos</h3>
+                    <a href="">Rome Dome</a>
+                    <a href="">Sydney Demo</a>
+                    <a href="">Tokyo Demo</a>
+                    <a href="">2500 Listings Demos</a>
+                </div>
+                <div class="col-lg-3 box">
+                    <h3>What`s New </h3>
+                    <a href="">Property Modal like Zillow</a>
+                    <a href="">Location Search Field</a>
+                    <a href="">Property with Classic Slider</a>
+                    <a href="">Featured Listing Shortcode</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="first">
+        <div class="fixed">
+           <div class="icon text-end">
+            <i  onclick="closeFixed()" class="fas fa-times exit"></i>
+           </div>
+            <P>18,000+Buyers</P>
+            <P>5-Star Rated Theme</P>
+            <P>Lifetime Free Updates</P>
+            <P>No Extra Costs</P>
+            <a href="">Buy Now!</a>
+        </div>
+        <div class="container">
+            <div class="top">
+                <h1>Find your dream home</h1>
+                <p>The best properties are published here</p>
+                <a class="clip" href="">Rentals</a>
+                <a style="background-color:#ebba7c;" href="">Sales</a>
+            </div>
+            <div class="bottom">
+               <select name="" id="">
+                   <option value="">Categories</option>
+                   <option value="">Apartments</option>
+                   <option value="">Condos</option>
+                   <option value="">Houses</option>
+                   <option value="">industrial</option>
+                   <option value="">Land</option>
+                   <option value="">Offices</option>
+                   <option value="">Retail</option>
+                   <option value="">Villas</option>
+               </select>
+               <select name="" id="">
+                <option value="">Cities</option>
+                <option value="">Jersey City</option>
+                <option value="">New York</option>
+            </select>
+            <select name="" id="">
+                <option value="">Areas</option>
+                <option value="">Bayonne</option>
+                <option value="">Greenville</option>
+                <option value="">Manhattan</option>
+                <option value="">industrial</option>
+                <option value="">Queens</option>
+                <option value="">The Heights</option>
+                <option value="">Upper East Side</option>
+                <option value="">West Side</option>
+            </select>
+            <select name="" id="">
+                <option value="">Bedrooms</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+            </select>
+            <input type="text" placeholder="Min size (in sqft)">
+                <input style="width: 44%;" type="range">
+               
+
+           
+            <a href="">Search Properties</a>
+        </div>
+    </section>
+    <section id="second">
+      <div class="container">
+          <div class="top">
+              <h2>Our listings portfolio</h2>
+              <p>These are the latest properties in the Sales category. You can create the list <br> using the “latest listing shortcode” and show items by specific categories.</p>
+              <a href="">Renatls</a>
+              <a href="">Sales</a>
+              <a href="">Apartments</a>
+              <a href="">Houses</a>
+          </div>
+          <div class="bottom">
+              <div class="row justify-content-between align-items-center">
+                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 box">
+                      <div class="img-box">
+                          <img  src="photo/interior10-525x328.jpg" alt="">
+                          <div class="a-box">
+                              <a href="">Rentals</a>
+                              <a style="background-color: #dd3333;" href="">New Offer</a>
+                        </div>
+                        <div class="t-box row justify-content-between align-items-center">
+                            <div class="col-9"> <span><i class="fas fa-map-marker-alt"></i>Manhattan,New York</span></div>
+                            <div class="col-3"> <i class="fas fa-video"></i>   <i class="fas fa-camera"> 6</i></div>
+                        </div>
+                      </div>
+                      <div class="alt-box">
+                          <h3>New York Studio apartment</h3>
+                          <h5>2,000/<span>Year</span></h5>
+                          <p>Just steps away from QM2 express bus to Manhattan and local buses; only minutes from the </p>
+                          <span>[more]</span>
+                          <div class="row last-box justify-content-between align-items-center">
+                              <div class="col-9"> 
+                                  <span> <i class="fas fa-bed"></i>1</span>
+                                  <span> <i class="fas fa-bath"></i> 1</span>
+                                  <span> <i class="far fa-window-restore"></i> 120 ft</span>
+                                </div>
+                              <div class="col-3">
+                                   <a href="">details</a> </div>
+                          </div>
+                          <div class="row foot-box justify-content-between align-items-center">
+                              <div class="col-6">
+                                  <img  src="photo/green-street-realty-logo-design-120x120.png" alt="">
+                                  <a href="">Green Reality</a>
+                              </div>
+                              <div class="col-6 text-end"> <i class="fas fa-share-alt"></i><i class="fas fa-heart"></i><i class="fas fa-plus"></i> </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 box">
+                    <div class="img-box">
+                        <img  src="photo/interior11-525x328.jpg" alt="">
+                        <div class="a-box">
+                            <a href="">Rentals</a>
+                            <a href="">New Offer</a>
+                      </div>
+                      <div class=" t-box row justify-content-between align-items-center">
+                          <div class="col-9"> <span><i class="fas fa-map-marker-alt"></i>Manhattan,New York</span></div>
+                          <div class="col-3"> <i class="fas fa-video"></i> <i class="fas fa-camera"> 6</i></div>
+                      </div>
+                    </div>
+                    <div class="alt-box">
+                        <h3>New York Studio apartment</h3>
+                        <h5>2,000/<span>Year</span></h5>
+                        <p>Just steps away from QM2 express bus to Manhattan and local buses; only minutes from the </p>
+                        <span>[more]</span>
+                        <div class="row  last-box justify-content-between align-items-center">
+                            <div class="col-9"> <span> <i class="fas fa-bed"></i>1</span><span> <i class="fas fa-bath"></i> 1</span><span> <i class="far fa-window-restore"></i> 120 ft</span></div>
+                            <div class="col-3"> <a href="">details</a> </div>
+                        </div>
+                        <div class="row foot-box justify-content-between align-items-center">
+                            <div class="col-6">
+                                <img  src="photo/green-street-realty-logo-design-120x120.png" alt="">
+                                <a href="">Green Reality</a>
+                            </div>
+                            <div class="col-6 text-end"> <i class="fas fa-share-alt"></i><i class="fas fa-heart"></i><i class="fas fa-plus"></i> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 box">
+                    <div class="img-box">
+                        <img  src="photo/house2-1-525x328.jpg" alt="">
+                        <div class="a-box">
+                            <a href="">Rentals</a>
+                            <a href="">New Offer</a>
+                      </div>
+                      <div class=" t-box row justify-content-between align-items-center">
+                          <div class="col-9"> <span><i class="fas fa-map-marker-alt"></i>Manhattan,New York</span></div>
+                          <div class="col-3"> <i class="fas fa-video"></i> <i class="fas fa-camera"> 6</i></div>
+                      </div>
+                    </div>
+                    <div class="alt-box">
+                        <h3>New York Studio apartment</h3>
+                        <h5>2,000/<span>Year</span></h5>
+                        <p>Just steps away from QM2 express bus to Manhattan and local buses; only minutes from the </p>
+                        <span>[more]</span>
+                        <div class="row last-box justify-content-between align-items-center">
+                            <div class="col-9"> <span> <i class="fas fa-bed"></i>1</span><span> <i class="fas fa-bath"></i> 1</span><span> <i class="far fa-window-restore"></i> 120 ft</span></div>
+                            <div class="col-3"> <a href="">details</a> </div>
+                        </div>
+                        <div class="row foot-box justify-content-between align-items-center">
+                            <div class="col-6">
+                                <img  src="photo/green-street-realty-logo-design-120x120.png" alt="">
+                                <a href="">Green Reality</a>
+                            </div>
+                            <div class="col-6 text-end"> <i class="fas fa-share-alt"></i><i class="fas fa-heart"></i><i class="fas fa-plus"></i> </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      
+    </section>
+    <section id="third">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 l-box"> 
+                 <h2>Browse listing by category</h2>
+                 <p>Highlight the best of your properties by using the List Category shortcode. You can list categories, types, cities, areas and states.                </p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 box">
+                     <img src="PHOTO/home-980x777.jpg" alt="">
+                    <h4>Apartments</h4>
+                    <p>13 listings</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 box">
+                     <img src="photo/featured_category_opt_couch.jpg" alt="">
+                    <h4>Houses</h4>
+                    <p>5 listings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fourth">
+        <div class="container">
+            <div class="top">
+                <h2>Listings available for rent</h2>
+                <p>These are the latest properties in the Sales category. You can create the list <br> using the “latest listing shortcode” and show items by specific categories.</p>
+                
+            </div>
+            <div class="bottom">
+                <div class="your-class">
+                    <div class="box">
+                        <div class="img-box">
+                            <img  src="photo/home-525x328.jpg" alt="">
+                            <div class="a-box">
+                                <a href="">Rentals</a>
+                                <a href="">New Offer</a>
+                          </div>
+                          <div class="t-box row justify-content-between align-items-center">
+                              <div class="col-9"> <span><i class="fas fa-map-marker-alt"></i>Manhattan,New York</span></div>
+                              <div class="col-3"> <i class="fas fa-video"></i>   <i class="fas fa-camera"> 6</i></div>
+                          </div>
+                        </div>
+                        <div class="alt-box">
+                            <h3>New York Studio apartment</h3>
+                            <h5>2,000/<span>Year</span></h5>
+                            <p>Just steps away from QM2 express bus to Manhattan and local buses; only minutes from the </p>
+                            <span>[more]</span>
+                            <div class="row last-box justify-content-between align-items-center">
+                                <div class="col-9"> 
+                                    <span> <i class="fas fa-bed"></i>1</span>
+                                    <span> <i class="fas fa-bath"></i> 1</span>
+                                    <span> <i class="far fa-window-restore"></i> 120 ft</span>
+                                  </div>
+                                <div class="col-3">
+                                     <a href="">details</a> </div>
+                            </div>
+                            <div class="row foot-box justify-content-between align-items-center">
+                                <div class="col-7">
+                                    <img  src="photo/green-street-realty-logo-design-120x120.png" alt="">
+                                    <a href="">Jess Lee</a>
+                                </div>
+                                <div class="col-5 text-end"> <i class="fas fa-share-alt"></i><i class="fas fa-heart"></i><i class="fas fa-plus"></i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-box">
+                            <img  src="photo/prop-525x328.jpg" alt="">
+                            <div class="a-box">
+                                <a href="">Rentals</a>
+                                <a href="">New Offer</a>
+                          </div>
+                          <div class="t-box row justify-content-between align-items-center">
+                              <div class="col-9"> <span><i class="fas fa-map-marker-alt"></i>Manhattan,New York</span></div>
+                              <div class="col-3"> <i class="fas fa-video"></i>   <i class="fas fa-camera"> 6</i></div>
+                          </div>
+                        </div>
+                        <div class="alt-box">
+                            <h3>New York Studio apartment</h3>
+                            <h5>2,000/<span>Year</span></h5>
+                            <p>Just steps away from QM2 express bus to Manhattan and local buses; only minutes from the </p>
+                            <span>[more]</span>
+                            <div class="row last-box justify-content-between align-items-center">
+                                <div class="col-9"> 
+                                    <span> <i class="fas fa-bed"></i>1</span>
+                                    <span> <i class="fas fa-bath"></i> 1</span>
+                                    <span> <i class="far fa-window-restore"></i> 120 ft</span>
+                                  </div>
+                                <div class="col-3">
+                                     <a href="">details</a> </div>
+                            </div>
+                            <div class="row foot-box justify-content-between align-items-center">
+                                <div class="col-6">
+                                    <img  src="photo/green-street-realty-logo-design-120x120.png" alt="">
+                                    <a href="">Lora Smith</a>
+                                </div>
+                                <div class="col-6 text-end"> <i class="fas fa-share-alt"></i><i class="fas fa-heart"></i><i class="fas fa-plus"></i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-box">
+                            <img  src="photo/book_wide-525x328.jpg" alt="">
+                            <div class="a-box">
+                                <a href="">Rentals</a>
+                                <a href="">New Offer</a>
+                          </div>
+                          <div class="t-box row justify-content-between align-items-center">
+                              <div class="col-9"> <span><i class="fas fa-map-marker-alt"></i>Manhattan,New York</span></div>
+                              <div class="col-3"> <i class="fas fa-video"></i>   <i class="fas fa-camera"> 6</i></div>
+                          </div>
+                        </div>
+                        <div class="alt-box">
+                            <h3>New York Studio apartment</h3>
+                            <h5>2,000/<span>Year</span></h5>
+                            <p>Just steps away from QM2 express bus to Manhattan and local buses; only minutes from the </p>
+                            <span>[more]</span>
+                            <div class="row last-box justify-content-between align-items-center">
+                                <div class="col-9"> 
+                                    <span> <i class="fas fa-bed"></i>1</span>
+                                    <span> <i class="fas fa-bath"></i> 1</span>
+                                    <span> <i class="far fa-window-restore"></i> 120 ft</span>
+                                  </div>
+                                <div class="col-3">
+                                     <a href="">details</a> </div>
+                            </div>
+                            <div class="row foot-box justify-content-between align-items-center">
+                                <div class="col-6">
+                                    <img  src="photo/green-street-realty-logo-design-120x120.png" alt="">
+                                    <a href="">Lora Smith</a>
+                                </div>
+                                <div class="col-6 text-end"> <i class="fas fa-share-alt"></i><i class="fas fa-heart"></i><i class="fas fa-plus"></i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-box">
+                            <img  src="photo/white_room-525x328.jpg" alt="">
+                            <div class="a-box">
+                                <a href="">Rentals</a>
+                                <a style="background-color: #dd3333;" href="">New Offer</a>
+                          </div>
+                          <div class="t-box row justify-content-between align-items-center">
+                              <div class="col-9"> <span><i class="fas fa-map-marker-alt"></i>Manhattan,New York</span></div>
+                              <div class="col-3"> <i class="fas fa-video"></i>   <i class="fas fa-camera"> 6</i></div>
+                          </div>
+                        </div>
+                        <div class="alt-box">
+                            <h3>New York Studio apartment</h3>
+                            <h5>2,000/<span>Year</span></h5>
+                            <p>Just steps away from QM2 express bus to Manhattan and local buses; only minutes from the </p>
+                            <span>[more]</span>
+                            <div class="row last-box justify-content-between align-items-center">
+                                <div class="col-9"> 
+                                    <span> <i class="fas fa-bed"></i>1</span>
+                                    <span> <i class="fas fa-bath"></i> 1</span>
+                                    <span> <i class="far fa-window-restore"></i> 120 ft</span>
+                                  </div>
+                                <div class="col-3">
+                                     <a href="">details</a> </div>
+                            </div>
+                            <div class="row foot-box justify-content-between align-items-center">
+                                <div class="col-6">
+                                    <img  src="photo/green-street-realty-logo-design-120x120.png" alt="">
+                                    <a href="">Lara Black</a>
+                                </div>
+                                <div class="col-6 text-end"> <i class="fas fa-share-alt"></i><i class="fas fa-heart"></i><i class="fas fa-plus"></i> </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="fifth">
+          <div class="container">
+              <div class="top">
+                  <h2>Featured properties</h2>
+                  <p>Here are two listings displayed with the featured property shortcode, which you can <br> use when you have some special properties to present.</p>
+              </div>
+              <div class="bottom">
+                  <div class="row all justify-content-between">
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 box">
+                          <div class="row justify-content-between ">
+                              <div class="col-6 img-box">
+                                  <img class="firstimg" src="PHOTO/home-8-1-525x328.jpg" alt="">
+                                  <p>New Offer</p>
+                                  <img class="secondimg" src="PHOTO/person2_opt.jpg" alt="">
+                              </div>
+                              <div class="col-6  text-box">
+                                  <h3>Villa on Washington Avenue</h3>
+                                  <h5>$ 150,000</h5>
+                                  <p>Beautiful, updated, ground level Co-op apartment in the desirable Bay <span> [more] </span> </p>
+                                  <i class="fas fa-share-alt"></i><i class="fas fa-heart"></i>
+                                  <hr>
+                                  <span> <i class="fas fa-bed"></i>5</span>
+                                  <span> <i class="fas fa-bath"></i> 3</span>
+                                  <span> <i class="far fa-window-restore"></i> 250 ft</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-start box">
+                          <div class="row justify-content-between">
+                              <div class="col-6 img-box">
+                                <img class="firstimg" src="PHOTO/prop-525x328.jpg" alt="">
+                                 <p style="background-color:#E7BA7E;" >Featured</p>
+                                <img class="secondimg" src="PHOTO/person4-500x328.jpg" alt="">
+
+                              </div>
+                              <div class="col-6 text-box">
+                                <h3>Luxury villa in Rego-Lux Park</h3>
+                                <h5>$ 420/ month</h5>
+                                <p>Beautiful, updated, ground level Co-op apartment in the desirable Bay <span> [more] </span> </p>
+                                <i class="fas fa-share-alt"></i><i class="fas fa-heart"></i>
+                                <hr>
+                                <span> <i class="fas fa-bed"></i>3</span>
+                                <span> <i class="fas fa-bath"></i>2</span>
+                                <span> <i class="far fa-window-restore"></i> 150 ft</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="gallery">
+          <div class="row justify-content-around">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 left-box">
+                  <img   src="photo/featured3-1110x623.jpg" alt="">
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 right-box">
+                  <div class="row justify-content-between">
+                      <div class="col-6 box"> 
+                          <img  src="PHOTO/featured_property_2-835x467.jpg" alt="">
+                        </div>
+                        <div class="col-6 box"> 
+                            <img src="PHOTO/decor_nice-835x467.jpg" alt="">
+                        </div>
+                      <div class="col-6 box"> 
+                        <img  src="PHOTO/decor-835x467.jpg" alt="">
+                    </div>
+                    <div class="col-6 box"> 
+                        <img src="PHOTO/decor2-835x467.jpg" alt="">
+                    </div>
+                      
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="sixth">
+          <div class="container">
+              <div class="top">
+                  <h2>Properties by area</h2>
+                  <p>Highlight the best of your properties by using the List Category shortcode. You can <br> list categories, types, cities, areas and states of your choice.</p>
+              </div>
+              <div class="bottom">
+                  <div class="row justify-content-between ">
+                      <div class="col-12 col-sm-12 col-md-8 col-lg-8 box-f">
+                          <img src="PHOTO/city9.jpg" alt="">
+                          <div class="bx-text-f">
+                              <h4>Queens</h4>
+                              <p>Friendly neighborhood</p>
+                              <h6>4 Listings</h6>
+                          </div>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-4 col-lg-4 box">
+                        <img src="PHOTO/newyork.jpg" alt="">
+                        <div class="bx-text">
+                            <h4>New York</h4>
+                            <p>The big apple</p>
+                            <h6>17 Listings</h6>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 box">
+                        <img src="PHOTO/city7.jpg" alt="">
+                        <div class="bx-text">
+                            <h4>Manhattan</h4>
+                            <p>Heart of NYC</p>
+                            <h6>9 Listings</h6>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 box">
+                        <img src="PHOTO/city2.jpg" alt="">
+                        <div class="bx-text">
+                            <h4>Bayonne</h4>
+                            <p>Best place to live</p>
+                            <h6>5 Listing</h6>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 box">
+                        <img src="PHOTO/city5-1.jpg" alt="">
+                        <div class="bx-text">
+                            <h4>Jersey City</h4>
+                            <p>The Best City</p>
+                            <h6>21 Listings</h6>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="map">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1hV1QxqkcgVAuETvSGJyGH18XbxY&hl=en" width="100%" height="480"></iframe>
+      </section>
+      <section id="seventh">
+            <div class="top">
+                <h2>Best off-plan projects</h2>
+                <p>
+                    If you have properties for sale based on their plans, showcase them in your <br> homepage to attract investors.
+                </p>
+            </div>
+              <div class="bottom">
+                  <hr>
+                  <div class="row head justify-content-between">
+                      <div  onclick="openTab(event,'box-f')" class="col-12 col-sm--12 col-md-3 col-lg-3 tablinks">
+                          <h3>  <i class="fas fa-city" ></i>Studio Apartment</h3>
+                      </div>
+                      <div onclick="openTab(event,'box-s')" class="col-12 col-sm--12 col-md-3 col-lg-3 tablinks">
+                        <h3> <i class="fas fa-fax" ></i>Apartment Class B</h3>
+                    </div>  
+                    <div onclick="openTab(event,'box-t')" class="col-12 col-sm--12 col-md-3 col-lg-3 tablinks">
+                        <h3> <i class="fas fa-fax" ></i>Apartment Class C</h3>
+                    </div> 
+                    <div onclick="openTab(event,'box-fh')" class="col-12 col-sm--12 col-md-3 col-lg-3 tablinks">
+                        <h3> <i class="fas fa-hospital-alt" ></i>Penthouse</h3>
+                    </div>
+                  </div>
+                  <div class="main">
+                      <div class="container">
+                          <div id="box-f" class="tabcontent">
+                          <div  class="row  justify-content-between align-items-center">
+                              <div class="col-12 col-sm-12 col-md-6 col-lg-6 boxx">
+                                  <h3>Studio Apartment</h3>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                  <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo. </p>
+                                  <h5>Floor:<span>1st</span></h5>
+                                  <h5>Bedrooms:<span>3</span></h5>
+                                  <h5>Bathroom:<span>1</span></h5>
+                                  <h5>Size <span>9,997 Sqft</span></h5>
+                                <a href="">See project</a>
+
+                              </div>
+                              <div class="col-12 col-sm-12 col-md-6 col-lg-6 boxx">
+                                  <img class="img-fluid" src="Photo/ap1-1.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                         <div id="box-s"  class="tabcontent" style="display: none;">
+                            <div  class="row justify-content-between align-items-center">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 boxx">
+                                    <h3>Apartment Class B</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo. </p>
+                                    <h5>Floor:<span>1st</span></h5>
+                                    <h5>Bedrooms:<span>3</span></h5>
+                                    <h5>Bathroom:<span>1</span></h5>
+                                    <h5>Size <span>9,997 Sqft</span></h5>
+                                    <a href="">See project</a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 box">
+                                    <img class="img-fluid" src="Photo/ap2.png" alt="">
+                              </div>
+                            </div>
+                         </div>
+                        <div id="box-t" class="tabcontent"  style="display: none;">
+                            <div  class="row justify-content-between align-items-center">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 boxx">
+                                    <h3>Apartment Class C</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo. </p>
+                                    <h5>Floor:<span>1st</span></h5>
+                                    <h5>Bedrooms:<span>3</span></h5>
+                                    <h5>Bathroom:<span>1</span></h5>
+                                    <h5>Size <span>9,997 Sqft</span></h5>
+                                    <a href="">See project</a>
+    
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 boxx">
+                                    <img class="img-fluid" src="Photo/ap3.png" alt="">
+                              </div>
+                            </div>
+                        </div>
+                      <div id="box-fh" class="tabcontent" style="display: none;" >
+                        <div  class="row justify-content-between align-items-center">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 boxx">
+                                <h3>Penthouse</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo. </p>
+                                <h5>Floor:<span>1st</span></h5>
+                                <h5>Bedrooms:<span>3</span></h5>
+                                <h5>Bathroom:<span>1</span></h5>
+                                <h5>Size <span>9,997 Sqft</span></h5>
+                                <a href="">See project</a>
+
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 box">
+                                <img class="img-fluid" src="Photo/ap4.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+      </section>
+      <section id="eight" >
+          <div class="container">
+              <div class="top">
+                  <h2>Developers</h2>
+                  <p>If you have properties for sale based on their plans, showcase them in your <br> homepage to attract investors.</p>
+              </div>
+              <div  class=" your-class bottom">
+                  <div class="box"><img src="photo/damac-1.png" alt=""></div>
+                  <div class="box"><img src="photo/dev-emaar-1.png" alt=""></div>
+                  <div class="box"><img src="photo/dev-meraas-1.png" alt=""></div>
+                  <div class="box"><img src="photo/damac-1.png" alt=""></div>
+                  <div class="box"><img src="photo/dev-emaar-1.png" alt=""></div>
+                  <div class="box"><img src="photo/dev-meraas-1.png" alt=""></div>
+
+              </div>
+          </div>
+      </section>
+      <section id="nineth">
+<div class="container">
+    <div class="top">
+        <h2>Testimonials</h2>
+        <p>Publish the best of your client testimonials and let the world know what a great <br> agent or real estate agency you are. Testimonials build trust.</p>
+    </div>
+    <div class="bottom">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-10 col-sm-10 col-md-4 col-lg-4 box">
+                <div class="row tp-box">
+                    <img class="col-6" src="PHOTO/person2_opt.jpg" alt="">
+                    <div class="rt-box col-6">
+                        <h4>David Gilmore</h4>
+                        <p>developer</p>
+                    </div>
+                </div>
+                <p>I reviewed and purchased a number of different WordPress Themes before settling on Wp Residence.</p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+            </div>
+            <div class="col-10 col-sm-10 col-md-4 col-lg-4 box">
+                <div class="row tp-box">
+                    <img class="col-6" src="PHOTO/person4-500x328.jpg" alt="">
+                    <div class="rt-box col-6">
+                        <h4>Susan Barkley</h4>
+                        <p>happy seller</p>
+                    </div>
+                </div>
+                <p>The WP Estate team did an outstanding job helping me buy and create my first real estate website.</p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="col-10 col-sm-10 col-md-4 col-lg-4 box">
+                <div class="row tp-box">
+                    <img class="col-6" src="PHOTO/person4-500x328.jpg" alt="">
+                    <div class="rt-box col-6">
+                        <h4>Lisa Simpson</h4>
+                        <p>happy bayer</p>
+                    </div>
+                </div>
+                <p>We hired the WP Estate team as our buyer agent because they are the perfect team for real estate projects.</p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+</div>
+      </section>
+      <section id="tenth">
+          <div class="all">
+              <h2>Subscribe to our newsletter</h2>
+              <div class="btm"><input placeholder="Enter you email addres" type="text"><a href="">Subscribe</a></div>
+          </div>
+      </section>
+
+
+<section id="last">
+<div class="container">
+    <div class="row justify-content-between align-items-center">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 box">
+            <h4>Contact us</h4> 
+            <div class="top"> 
+                <p><i class="fas fa-city"></i>3755 Commercial St SE Salem, Corner with Sunny Boulevard, 3755 Commercial OR 97302</p>
+                <p><i class="fas fa-phone"></i> (305) 555-4446</p>
+                <p><i class="fas fa-check"></i> (305) 555-4555</p>
+                <p><i class="fas fa-envelope"></i> (305) youremail@gmail.com</p>
+                <p><i class="fab fa-skype"></i> wpestatetheme</p>
+                <p><i class="fas fa-tv"></i> WP RESIDENCE</p>
+            </div>
+            <div class="bottom">
+                <i class="fas fa-signal"></i> 
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-tumblr"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-vuejs"></i>
+            </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-2 col-lg-2 box">
+            <h4>Lists by Category</h4> 
+            <p> Apartments(13)</p>
+            <p>Condos (8)</p>
+            <p>Houses (5)</p>
+            <p>Industrial (1)</p>
+            <p>Land (1)</p>
+            <p>Offices (2)</p>
+            <p>Retail (4)</p>
+            <p>Villas (4)</p>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 box">
+            <h4>Latest Properties</h4> 
+            <div class="row mb-3 last-box justify-content-between">
+                <div class="col-6">
+                    <img  src="photo/house2-1-525x328.jpg" alt="">
+                </div>
+                <div class="col-6"> 
+                    <h5>Luxury House In Greenville</h5>
+                    <p>from $86,000</p>
+                </div>
+            </div>
+            <div class="row last-box justify-content-between">
+                <div class="col-6">
+                    <img  src="photo/house2-1-525x328.jpg" alt="">
+                </div>
+                <div class="col-6"> 
+                    <h5>Three Room Apartment for Rent</h5>
+                    <p>from $150,000</p>
+                </div>
+            </div>
+            <div class="row last-box justify-content-between">
+                <div class="col-6">
+                    <img  src="photo/house2-1-525x328.jpg" alt="">
+                </div>
+                <div class="col-6"> 
+                    <h5>Apartment with Subuntis</h5>
+                    <p>from $999</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section id="footer">
+<div class="container">
+    <div class="row justify-content-between align-items-center">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-8 bx">
+            <p>2021 | Cloned by Abbasbəyli Rauf. All Rights Reserved.</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-2 bx">
+            <p>Theme Documenton</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-2 bx">
+            <p>Client Support</p>
+
+        </div>
+
+    </div>
+</div>
+</section>
+</section>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="Js/main.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
